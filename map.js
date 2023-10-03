@@ -12,3 +12,8 @@ flower.set("Water Lily", 300);
 flower.get("Rose");
 console.log(flower);
 console.log(flower.get("Rose"));
+console.log(String(Date()));
+
+function deleteItem() {
+  alert("Delete this button");
+}
