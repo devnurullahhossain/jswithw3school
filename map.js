@@ -17,3 +17,13 @@ console.log(String(Date()));
 function deleteItem() {
   alert("Delete this button");
 }
+
+sleep = (name, time) => {
+  console.log(name + " " + "is sleeping from " + " " + time);
+};
+sleep("Rahim", "10 Am");
+
+nowGo = (name, time, place) => {
+  console.log(name + " " + "is going " + " " + place + " " + "from" + " " + time);
+};
+nowGo("Mr: x", "11 AM", "London");
